@@ -1,7 +1,8 @@
 #!/bin/env python
 # ------------------------------------------------------- 
-# Compiled By RC Chuah
+# Compiled By RC Chuah-(RaynerSec)
 # Github : https://github.com/rc-chuah
+# Github : https://github.com/RaynerSec
 # ------------------------------------------------------- 
 # Platform : Linux
 # Time : Tue Sep 1 17:02:02 2020
