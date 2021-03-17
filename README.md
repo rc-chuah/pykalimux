@@ -7,3 +7,6 @@ This is a python script by which you can install Kali Nethunter (Kali Linux) in 
 2. Git Clone Repo `git clone https://github.com/rc-chuah/pykalimux`
 3. Change Directory `cd pykalimux`
 4. Run script `python pykalimux.py`
+### How To Use pykalimux Using pip (Python Package Manager)
+1. Install pykalimux `pip install pykalimux`
+2. Run It `pykalimux`
