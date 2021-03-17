@@ -9,4 +9,4 @@ This is a python script by which you can install Kali Nethunter (Kali Linux) in 
 4. Run script `python pykalimux.py`
 ### How To Use pykalimux Using pip (Python Package Manager)
 1. Install pykalimux `pip install pykalimux`
-2. Run It `pykalimux`
+2. Run It On Termux Terminal `pykalimux`
