@@ -1,11 +1,61 @@
 #!/bin/env python
-# -------------------------------------------------------
-# Compiled By RC Chuah-(RaynerSec)
-# Github : https://github.com/rc-chuah
-# Github : https://github.com/RaynerSec
-# -------------------------------------------------------
-# Platform : Linux
-# Time : Tue Sep 1 17:02:02 2020
-# -------------------------------------------------------
+# -*- coding: utf-8 -*- #
+# Created And Coded by RC Chuah-(RaynerSec)
 
-exec(__import__('base64').b64decode(__import__('codecs').getencoder('utf-8')('IyEvYmluL2VudiBweXRob24KIyAtKi0gY29kaW5nOiB1dGYtOCAtKi0gIwojIENyZWF0ZWQgQW5kIENvZGVkIGJ5IFJDIENodWFoLShSYXluZXJTZWMpCgojIEltcG9ydCBNb2R1bGVzCmltcG9ydCBvcwppbXBvcnQgc3lzCmltcG9ydCB0aW1lCmltcG9ydCBkYXRldGltZQoKb3Muc3lzdGVtKCJjbGVhciIpCgojIEluZm9ybWF0aW9uCnByaW50KCJLYWxpLU5ldGh1bnRlci1Jbi1UZXJtdXggSW5zdGFsbGVyIikKcHJpbnQoIiIpCnByaW50KCJTY3JpcHQgQnkgUkMgQ2h1YWgiKQpwcmludCgiIikKbm93ID0gZGF0ZXRpbWUuZGF0ZXRpbWUubm93KCkKcHJpbnQoIkN1cnJlbnQgZGF0ZSBhbmQgdGltZSA6ICIpCnByaW50KG5vdy5zdHJmdGltZSgiJWQtJW0tJVkgJUg6JU06JVMiKSkKcHJpbnQoIiIpCnByaW50KCJbMV0tSW5zdGFsbCBLYWxpIE5ldGh1bnRlciBJbiBUZXJtdXggRnVsbCBWZXJzaW9uIikKcHJpbnQoIlsyXS1JbnN0YWxsIEthbGkgTmV0aHVudGVyIEluIFRlcm11eCBNaW5pbWFsIFZlcnNpb24iKQpwcmludCgiWzNdLVVuaW5zdGFsbCBLYWxpIE5ldGh1bnRlciBJbiBUZXJtdXgiKQpwcmludCgiWzRdLUV4aXQgSW5zdGFsbGVyIikKcHJpbnQoIiIpCgojIE1haW4KY2hvaWNlID0gaW5wdXQoIkNob2ljZTogIikKaWYgY2hvaWNlID09ICIxIjoKCW9zLnN5c3RlbSgiY2QgJHtIT01FfSAmJiBjdXJsIC1mc1NMIGh0dHBzOi8vYml0LmRvL2ZOeXNvIHwgYmFzaCAmJiBybSAtcmYga2FsaWZzLWFybWhmLWZ1bGwudGFyLnh6ICYmIHJtIC1yZiBrYWxpZnMtYXJtNjQtZnVsbC50YXIueHogJiYgcm0gLXJmIGthbGlmcy1hcm1oZi1mdWxsLnNoYTUxMnN1bSAmJiBybSAtcmYga2FsaWZzLWFybTY0LWZ1bGwuc2hhNTEyc3VtIikKaWYgY2hvaWNlID09ICIyIjoKCW9zLnN5c3RlbSgiY2QgJHtIT01FfSAmJiBjdXJsIC1mc1NMIGh0dHBzOi8vYml0LmRvL2ZOeXNXIHwgYmFzaCAmJiBybSAtcmYga2FsaWZzLWFybWhmLW1pbmltYWwudGFyLnh6ICYmIHJtIC1yZiBrYWxpZnMtYXJtNjQtbWluaW1hbC50YXIueHogJiYgcm0gLXJmIGthbGlmcy1hcm1oZi1taW5pbWFsLnNoYTUxMnN1bSAmJiBybSAtcmYga2FsaWZzLWFybTY0LW1pbmltYWwuc2hhNTEyc3VtIikKaWYgY2hvaWNlID09ICIzIjoKCW9zLnN5c3RlbSgicm0gLXJmICR7SE9NRX0va2FsaS1hcm02NCAmJiBybSAtcmYgJHtIT01FfS9rYWxpLWFybWhmICYmIHJtIC1yZiAke1BSRUZJWH0vYmluL25oICYmIHJtIC1yZiAke1BSRUZJWH0vYmluL25ldGh1bnRlciAmJiBzbGVlcCAxICYmIGVjaG8gWytdIFN1Y2Nlc3NmdWxseSBVbmluc3RhbGxlZCAuLi4iKQppZiBjaG9pY2UgPT0gIjQiOgoJc3lzLmV4aXQoKQplbGlmIGNob2ljZSA9PSAiIjoKICAgIHByaW50KCJZb3UgSGF2ZW4ndCBTZWxlY3QgQW55IE9wdGlvbiBGcm9tIFRoZSBBYm92ZSAhISEiKQogICAgcHJpbnQoIlBsZWFzZSBSdW4gVGhpcyBTY3JpcHQgQWdhaW4gISEhIik=')[0]))
+# Import Modules
+import os
+import sys
+import time
+import datetime
+
+# Press Enter To Continue Function
+def press_enter():
+    print("")
+    input("Press Enter To Continue...")
+    os.system("clear")
+
+# Incorrect Selection Function
+def incorrect_selection():
+    print("Incorrect Selection! Try Again.")
+
+# Usage Menu
+def main():
+  while True:
+    os.system("clear")
+    print("Kali-Nethunter-In-Termux Installer")
+    print("")
+    print("Script By RC Chuah-(RaynerSec)")
+    print("")
+    now = datetime.datetime.now()
+    print("Current Date And Time:")
+    print(now.strftime("%d-%m-%y %H:%M:%S"))
+    print("")
+    print("[1]-Install Kali Nethunter In Termux Full Version")
+    print("[2]-Install Kali Nethunter In Termux Minimal Version")
+    print("[3]-Uninstall Kali Nethunter In Termux")
+    print("[4]-Exit Menu")
+    print("")
+    choice = input("Enter Choice: ")
+    # Menu Choices
+    if choice == "1":
+      os.system("clear")
+      os.system("cd ${HOME} && curl -fsSL https://bit.do/fNyso | bash && rm -rf kalifs-armhf-full.tar.xz && rm -rf kalifs-arm64-full.tar.xz && rm -rf kalifs-armhf-full.sha512sum && rm -rf kalifs-arm64-full.sha512sum")
+      press_enter()
+    elif choice == "2":
+      os.system("clear")
+      os.system("cd ${HOME} && curl -fsSL https://bit.do/fNysW | bash && rm -rf kalifs-armhf-minimal.tar.xz && rm -rf kalifs-arm64-minimal.tar.xz && rm -rf kalifs-armhf-minimal.sha512sum && rm -rf kalifs-arm64-minimal.sha512sum")
+      press_enter()
+    elif choice == "3":
+      os.system("clear")
+      os.system("rm -rf ${HOME}/kali-arm64 && rm -rf ${HOME}/kali-armhf && rm -rf ${PREFIX}/bin/nh && rm -rf ${PREFIX}/bin/nethunter && sleep 1 && echo [+] Successfully Uninstalled ...")
+      press_enter()
+    elif choice == "4":
+      os.system("clear")
+      sys.exit()
+    else:
+      os.system("clear")
+      incorrect_selection()
+      press_enter()
+
+if __name__ == "__main__":
+    main()
