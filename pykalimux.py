@@ -18,9 +18,10 @@ def press_enter():
 def incorrect_selection():
     print("Incorrect Selection! Try Again.")
 
-# Usage Menu
+# Main Function
 def main():
   while True:
+    # Usage Menu
     os.system("clear")
     print("Kali-Nethunter-In-Termux Installer")
     print("")
@@ -57,5 +58,6 @@ def main():
       incorrect_selection()
       press_enter()
 
+# Driver Code
 if __name__ == "__main__":
     main()
