@@ -6,7 +6,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setup(name="pykalimux",
-      version="1.1",
+      version="1.2",
       description="This is a python script by which you can install Kali Nethunter (Kali Linux) in your termux application without rooted phone.",
       long_description=long_description,
       long_description_content_type="text/markdown",
