@@ -8,6 +8,22 @@ import sys
 import time
 import datetime
 
+# Install Kali Nethunter In Termux Full Version Function
+def full():
+    os.system("cd ${HOME} && curl -fsSL https://bit.ly/install-nethunter-full-termux | bash && rm -rf kalifs-armhf-full.tar.xz && rm -rf kalifs-arm64-full.tar.xz && rm -rf kalifs-armhf-full.sha512sum && rm -rf kalifs-arm64-full.sha512sum")
+
+# Install Kali Nethunter In Termux Minimal Version Function
+def minimal():
+    os.system("cd ${HOME} && curl -fsSL https://bit.ly/install-nethunter-minimal-termux | bash && rm -rf kalifs-armhf-minimal.tar.xz && rm -rf kalifs-arm64-minimal.tar.xz && rm -rf kalifs-armhf-minimal.sha512sum && rm -rf kalifs-arm64-minimal.sha512sum")
+
+# Install Kali Nethunter In Termux Nano Version Function
+def nano():
+    os.system("cd ${HOME} && curl -fsSL https://bit.ly/install-nethunter-nano-termux | bash && rm -rf kalifs-armhf-nano.tar.xz && rm -rf kalifs-arm64-nano.tar.xz && rm -rf kalifs-armhf-nano.sha512sum && rm -rf kalifs-arm64-nano.sha512sum")
+
+# Uninstall Kali Nethunter In Termux Function
+def uninstall():
+    os.system("rm -rf ${HOME}/kali-arm64 && rm -rf ${HOME}/kali-armhf && rm -rf ${PREFIX}/bin/nh && rm -rf ${PREFIX}/bin/nethunter && sleep 1 && echo [+] Successfully Uninstalled ...")
+
 # Press Enter To Continue Function
 def press_enter():
     print("")
@@ -33,24 +49,29 @@ def main():
     print("")
     print("[1]-Install Kali Nethunter In Termux Full Version")
     print("[2]-Install Kali Nethunter In Termux Minimal Version")
-    print("[3]-Uninstall Kali Nethunter In Termux")
-    print("[4]-Exit Menu")
+    print("[3]-Install Kali Nethunter In Termux Nano Version")
+    print("[4]-Uninstall Kali Nethunter In Termux")
+    print("[5]-Exit Menu")
     print("")
     choice = input("Enter Choice: ")
     # Menu Choices
     if choice == "1":
       os.system("clear")
-      os.system("cd ${HOME} && curl -fsSL https://bit.do/fNyso | bash && rm -rf kalifs-armhf-full.tar.xz && rm -rf kalifs-arm64-full.tar.xz && rm -rf kalifs-armhf-full.sha512sum && rm -rf kalifs-arm64-full.sha512sum")
+      full()
       press_enter()
     elif choice == "2":
       os.system("clear")
-      os.system("cd ${HOME} && curl -fsSL https://bit.do/fNysW | bash && rm -rf kalifs-armhf-minimal.tar.xz && rm -rf kalifs-arm64-minimal.tar.xz && rm -rf kalifs-armhf-minimal.sha512sum && rm -rf kalifs-arm64-minimal.sha512sum")
+      minimal()
       press_enter()
     elif choice == "3":
       os.system("clear")
-      os.system("rm -rf ${HOME}/kali-arm64 && rm -rf ${HOME}/kali-armhf && rm -rf ${PREFIX}/bin/nh && rm -rf ${PREFIX}/bin/nethunter && sleep 1 && echo [+] Successfully Uninstalled ...")
+      nano()
       press_enter()
     elif choice == "4":
+      os.system("clear")
+      uninstall()
+      press_enter()
+    elif choice == "5":
       os.system("clear")
       sys.exit()
     else:
