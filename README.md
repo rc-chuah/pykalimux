@@ -20,3 +20,15 @@ This is a python script by which you can install Kali Nethunter (Kali Linux) in 
 3. Run It On Termux Terminal `pykalimux`
 #### Update pykalimux Using PyPI (Python Package Index)
 - Update To The Latest pykalimux Using PyPI (Python Package Index) `pip install --upgrade pykalimux`
+
+## Star History
+<a href="https://www.star-history.com/#rc-chuah/pykalimux&Date">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=rc-chuah/pykalimux&type=Date&theme=dark" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=rc-chuah/pykalimux&type=Date" />
+   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=rc-chuah/pykalimux&type=Date" />
+ </picture>
+</a>
+
+## Stargazers Over Time
+[![Stargazers over time](https://starchart.cc/rc-chuah/pykalimux.svg?variant=adaptive)](https://starchart.cc/rc-chuah/pykalimux)
