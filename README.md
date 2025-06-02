@@ -31,4 +31,4 @@ This is a python script by which you can install Kali Nethunter (Kali Linux) in 
 </a>
 
 ## Stargazers Over Time
-[![Stargazers over time](https://starchart.cc/rc-chuah/pykalimux.svg?variant=adaptive)](https://starchart.cc/rc-chuah/pykalimux)
+[![Stargazers Over Time](https://starchart.cc/rc-chuah/pykalimux.svg?variant=adaptive)](https://starchart.cc/rc-chuah/pykalimux)
